@@ -1,5 +1,5 @@
-name: Bundle Unity Bundle Version
-description: Bumps the current bundleVersion to a given Unity ProjectSettings.asset
+name: Bundle Unity Bundle Version (with lower-version reseting)
+description: Bumps the current bundleVersion to a given Unity ProjectSettings.asset. Adds lower version reseting.
 branding:
   icon: anchor
   color: blue
