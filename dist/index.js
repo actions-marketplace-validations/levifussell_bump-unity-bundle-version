@@ -5822,12 +5822,15 @@ async function run()
                 if (bump_major)
                 {
                     major++;
+                    minor = 0;
+                    patch = 0;
                 }
-                if (bump_minor)
+                else if (bump_minor)
                 {
                     minor++;
+                    patch = 0;
                 }
-                if (bump_patch)
+                else if (bump_patch)
                 {
                     patch++;
                 }
